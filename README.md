@@ -2,7 +2,8 @@
 ## This is a simple graphql crud api with Ruby on Rails 
 
 #### Read Data Endpoints
-### /users
+
+/users
 ```
 {
   users{
@@ -12,7 +13,7 @@
 }
 ```
 
-### /user
+/user
 ```
 {
   user(id: 2){
@@ -21,7 +22,7 @@
   }
 }
 ```
-### /articles
+/articles
 ```
 {
   articles{
@@ -32,7 +33,7 @@
 }
 ```
 
-### /article
+/article
 ```
 {
   article(id: 4){
@@ -44,7 +45,7 @@
 ```
 
 #### Mutations Endpoints
-### /createArticle
+/createArticle
 
 ```
 mutation{
@@ -63,7 +64,7 @@ mutation{
 }
 ```
 
-### /EditArticle
+/EditArticle
 
 ```
 mutation{
@@ -81,7 +82,7 @@ mutation{
   }
 }
 ```
-### /DeleteArticle
+/DeleteArticle
 
 ```
 mutation{
